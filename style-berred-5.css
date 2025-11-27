@@ -1,0 +1,319 @@
+/* Edited by Kate */
+/* Thanks to W3C Organization */
+/* style-berred-5.css */
+/*                        */ 
+body {
+  color: black;
+  /* background-color: white;*/
+  background-color: #eeeeee;
+ /* background-color: #FEF9F3;*/
+  font-size: 100.01%;
+  font-family: Helvetica,Arial,sans-serif;
+  margin: 0;
+  padding: 1em;
+  min-width: 41em; /* largeur minimale qui empêche des sauts à la 
+             ligne et des erreurs d'affichage avec les navigateurs modernes */
+}
+h2 {
+/*    font-size: 1.5em;*/
+  font-size: 1.25em;
+  margin: 0em 0em 0em 1em; 
+  padding: 0.3em;
+  text-align: left;
+/*  background-color: #eee;*/
+/*    background-color: #fed;*/
+/*  border: 1px dashed silver;*/
+/* border: 2px ridge silver;*/
+}
+ul {
+  list-style-type: square;
+}
+a {
+  /*display: block;*/
+  padding: 0.2em;
+  text-decoration: none;
+}
+a:link {
+/*  color: black; background-color: #fed;*/
+  color:black;
+/*  background-color: #eee;*/
+}
+a:visited {
+  color: black; /*#666;*/
+  background-color: #eee;
+}
+a:hover {
+  color:black;
+  background-color: white;
+/*font-size: 1.2em;*/
+}
+a:active {
+  color: white;
+  background-color: gray;
+}
+
+img {
+/*  position:relative;
+  float:left;*/ 
+  border:1px dashed silver;
+  /*margin:15px 15px 20px 0px;*/
+ /* margin:1em 1em 0em 1em;*/
+margin:.6em 0em 0em 0em;
+}
+
+span#sc {
+  font-variant: small-caps;
+ /* font-size: 1.1em;*/
+}
+
+div#entete {
+  border: 1px dashed silver;
+  margin: 0 0 0.7em;
+  min-height: 3em; 
+  padding: 0.3em;
+  /*background: #4682B4 url("Logos-LMAH-ULH-NU-FNM.png") no-repeat 100% 45%;/* #DBE0E4; #fed*/
+  background: #4682B4 url("LogoUnivHavre-1.png") no-repeat 100% 45%;
+/* background-color: #4682B4;*/
+/*  background-image: url("Logos-LMAH-ULH-NU-FNM.png");*/
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+div#cartev {
+/*Custom*/
+  /*background-color: #CDD3D9;*/
+  background-color: #eee;
+  /*background-color:#FEF9F3;*/
+  /*font-size: 0.83em;*/
+  font-size: 0.95em;
+  float: left;
+  height: 38em;
+/*  height: 33em;*/
+  width: 18.5em;
+/*  width: 16em;*/
+/*  margin: 0 0 1.2em;*/
+  margin-bottom: .75em;
+  padding: 0;
+  border: 1px dashed silver;
+}
+div#cartev h1 {
+  font-size: 1.25em;
+  margin: 0.25em 1em 0em 1em;
+}
+
+div#cartev p {
+  font-size: 1em;
+  margin: 0.35em 0.3em 0em 1em;
+}
+div#cartev a {
+/*
+  padding: 0.2em;
+  background: #eeeeee none repeat scroll 0% 50%;
+  display: block;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #4682B4;*/
+}
+
+div#cartev a:hover {
+  font-size: 1.1em;
+  color:black;
+  background-color: #556B2F;/*#4682B4;#CDD3D9*/
+}
+
+div#contenu {
+/*  margin: 0 12em 1em 16em;*/
+/*  margin: 0 12em 1em 16.4em;*/
+/*  margin: 0 13.9em 1em 16.8em;*/
+  margin: 0 0em 1em 19.3em;
+  padding: 0 1em;
+  border: 1px dashed silver;
+/* Custom */
+  font-size: 0.95em;
+  background-color: #eee;
+  margin-bottom: .75em;
+}
+div#contenu h1 {
+  font-size: 1.25em;
+  margin: 0.5em 0.1em 0em 0.2em;
+  font-variant: small-caps;
+  border:1px dashed silver;
+}
+div#contenu h3 {
+  font-size: 1.25em;
+  margin: 0.5em 0.1em 0em 0.2em;
+  font-variant: small-caps;
+  background-color: #4682B4; /*#DBE0E4; */
+}
+div#contenu p {
+  font-size: 1em;
+  margin: 1em 0;
+}
+div#contenu a {
+  padding: 0.2em;
+  /* background: #eeeeee none repeat scroll 0% 50%;*/
+  display: block;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div#contenu a:link {
+  color:black;
+  background-color: #4682B4/*#DBE0E4;#eeeeee;#CDD3D9;*/
+}
+
+div#contenu a:visited {
+  color: black; /*#666666;*/
+  background-color: #4682B4/*#DBE0E4;#CDD3D9;#eeeeee;*/
+}
+div#contenu a:hover {
+  font-size: 1.5em;
+  color:black;
+  background-color: #556B2F;/*#4682B4;#DBE0E4;#D7DCE1; #FFEFD5; #20B2AA; #00BFFF; #CDD3D9;*/
+}
+div#contenu a:active {
+  color: white;
+  background-color: gray;
+}
+* html div#contenu {
+  height: 1em;
+}
+
+div#contenu1 {
+/*  margin: 0 12em 1em 16em;*/
+/*  margin: 0 12em 1em 16.4em;*/
+/*  margin: 0 13.9em 1em 0em;*/
+  margin: 0 0em 1em 0em;
+  padding: 0 1em;
+  border: 1px dashed silver;
+/* Custom */
+  font-size: 0.95em;
+  background-color: #eee;
+  margin-bottom: .75em;
+}
+div#contenu1 h1 {
+  font-size: 1.25em;
+  margin: 0.5em 0.1em 0em 0.2em;
+  font-variant: small-caps;
+  border:1px dashed silver;
+}
+div#contenu1 h3 {
+  font-size: 1.25em;
+  margin: 0.5em 0.1em 0em 0.2em;
+  font-variant: small-caps;
+  background-color:  #4682B4; /*#DBE0E4; */
+  border:1px dashed silver;
+}
+div#contenu1 p {
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+div#contenu1 a {
+  padding: 0.2em;
+  /* background: #eeeeee none repeat scroll 0% 50%;*/
+  display: block;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div#contenu1 a:link {
+  color:black;
+  background-color: #4682B4;/*#DBE0E4;#eeeeee;#CDD3D9;*/
+}
+
+div#contenu1 a:visited {
+  color: black; /*#666666;*/
+  background-color: #4682B4/*#DBE0E4;#CDD3D9;#eeeeee;*/
+}
+div#contenu1 a:hover {
+  font-size: 1.5em;
+  color:black;
+  background-color:#556B2F;/*#4682B4;#CDD3D9;#DBE0E4;#D7DCE1; #FFEFD5; #20B2AA; #00BFFF; #CDD3D9;*/
+}
+div#contenu1 a:active {
+  color: white;
+  background-color: gray;
+}
+* html div#contenu1 {
+  height: 1em;
+}
+
+div#info {
+  font-size: 0.9em;
+  float: right;
+  width: 14em;
+  margin: 0 0 1.1em;
+  padding: 0;
+  background-color: #eee;
+  border: 1px dashed silver;
+}
+
+div#info h1 {
+  font-size: 1.33em;
+  margin: 0.2em 0.5em;
+}
+div#info p {
+  font-size: 1em;
+  margin: 0.5em;
+}
+
+p#pied {
+  clear: both;
+  font-size: 0.95em;
+  height: 1em;
+/*   font-size: 0.9em;*/
+  margin: 0; padding: 0.1em;
+/*  text-align: center;*/
+  text-align: left;
+
+  background-color: #4682B4;/* #DBE0E4;#CDD3D9;*/
+/*    background-color: #fed;*/
+  border: 1px dashed silver;
+/*border: 1px solid silver;*/
+}
+
+ul#menu {
+/*Custom*/
+/*  background-color:#eee;*/
+  /*font-size: 0.83em;*/
+  font-size: 0.85em;
+  float: left;
+/*  width: 18em;*/
+  width: 15.5em;
+  margin: 0 0 1.2em;
+  padding: 0;
+  border: 1px dashed silver;
+}
+ul#menu li {
+  list-style: none;
+  margin: 0;
+  padding: 0.5em;
+}
+ul#menu a {
+  display: block;
+  padding: 0.2em;
+  font-weight: bold;
+/* Custom */
+  text-decoration: none;
+}
+ul#menu a:link {
+/*  color: black; background-color: #fed;*/
+  color:black;
+  background-color: #eee;
+}
+ul#menu a:visited {
+  color: black; /*#666;*/
+  background-color: #eee;
+}
+ul#menu a:hover {
+  color:black;
+  background-color: white;
+/* New */
+  font-size: 1.2em;
+}
+ul#menu a:active {
+  color: white; background-color: gray;
+}
